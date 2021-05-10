@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>Spring, Node, Javascript, Vue, etc... I love development</description>
+    <link>
+    http://localhost:4000</link>
+    
+      
+      <item>
+        <title>Spring 개발일지(5) - 의존성 주입(DI)</title>
+        
+          <description>&lt;!--
+   &lt; 준호가 이용할 태그 정리&gt;
+   &lt;code class=&quot;highlighter-rouge&quot;&gt; &lt;/code&gt;                    : 어떠한 문장이나 단어를 하이라이트 할 때 사용합니다.
+   &lt;a target=&quot;_blank&quot;&gt; &lt;/a&gt;                                    : a 태그를 이용하여 문서를 이동하는데 사용합니다.
+   &lt;p&gt;&lt;strong  class=&quot;subtitle_fontAwesome&quot;&gt; &lt;/strong&gt;&lt;/p&gt;     : 주제를 기록할 때 사용합니다.
+   &gt;                                                           : 설명할 때 사용합니다.
+   &gt;  ** **                                                    : 코드를 적어야 하는 경우 사용합니다.
+   &lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
+markdown: kramdown
+highlighter: rouge
+paginate: 100 # it will paginate after this number
+language: &amp;#39;en-uk&amp;#39;
+words_per_minute: 200
+
+# edit baseurl to simply &amp;#39;/&amp;#39; if using as your personal page (instead of a project page)
+baseurl: /
+
+# Website info
+title: 웹 개발자, 김준호의 블로그
+description: The professional publishing platform
+cover: assets/images/blog-cover.jpg
+logo: assets/images/blog-icon.png
+logo_dark: assets/images/favicon.png
+favicon: assets/images/favicon.png
+CNAME: #add cname for website to be created
+
+# Social info
+navigation: True # show the navbar links
+subscribers: True # you need to connect an external service for this to work,
+# if &amp;#39;True&amp;#39; the submit button is disabled for now, but you can change that
+# by editing `_includes/subscribe-form.html`
+twitter:  # replace by your username
+facebook:  # replace by your username
+
+# Disqus
+disqus: False
+disqus_shortname: jekyller # replace with your disqus username
+
+# Google Analytics
+google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:author
+# permalink: /tag/:tag
+
+# Authors&amp;#39; info in `_data/authors.yml`
+# Tags&amp;#39; info in `_data/tags_info.yml`
+
+# gems and other configs
+plugins_dir: [_plugins]
+plugins: [jekyll-paginate, jekyll-feed]
+
+feed:
+  path: feed.xml
+
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author&amp;#39;s page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post&amp;#39;s page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
+
+# Settings for building master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV[&amp;#39;GIT_NAME&amp;#39;] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to &amp;quot;source&amp;quot; for USERNAME.github.io
+# or &amp;quot;master&amp;quot; otherwise
+safe: False
+lsi: False
+username: libtv
+repo: libtv.github.io
+branch: master
+relative_source: 
+destination: ../jasper2-pages/
+production_url:  https://libtv.github.io/
+source_url:  https://github.com/libtv/libtv.github.io/
+
+exclude:
+  - assets/css
+  - node_modules
+  - vendor
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - GHOST.txt
+  - gulpfile.js
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - script.py
+  - changelog.md
+  - &amp;quot;*.Rmd&amp;quot;
+  - .git*
+  - backup
+&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt;           : gist 코드입니다.
+   ![name](assets/images/spring/spring1_1.png)                 : image를 삽입하는 코드입니다.
+ --&gt;
+
+</description>
+        
+        <pubDate>Fri, 07 May 2021 00:40:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/spring-num5</link>
+        <guid isPermaLink="true">http://localhost:4000/spring-num5</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Spring 개발일지(4) - 자바로 스프링 개발</title>
+        
+          <description>&lt;!--
+   &lt; 준호가 이용할 태그 정리&gt;
+   &lt;code class=&quot;highlighter-rouge&quot;&gt; &lt;/code&gt;                    : 어떠한 문장이나 단어를 하이라이트 할 때 사용합니다.
+   &lt;a target=&quot;_blank&quot;&gt; &lt;/a&gt;                                    : a 태그를 이용하여 문서를 이동하는데 사용합니다.
+   &lt;p&gt;&lt;strong  class=&quot;subtitle_fontAwesome&quot;&gt; &lt;/strong&gt;&lt;/p&gt;     : 주제를 기록할 때 사용합니다.
+   &gt;                                                           : 설명할 때 사용합니다.
+   &gt;  ** **                                                    : 코드를 적어야 하는 경우 사용합니다.
+   &lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
+markdown: kramdown
+highlighter: rouge
+paginate: 100 # it will paginate after this number
+language: &amp;#39;en-uk&amp;#39;
+words_per_minute: 200
+
+# edit baseurl to simply &amp;#39;/&amp;#39; if using as your personal page (instead of a project page)
+baseurl: /
+
+# Website info
+title: 웹 개발자, 김준호의 블로그
+description: The professional publishing platform
+cover: assets/images/blog-cover.jpg
+logo: assets/images/blog-icon.png
+logo_dark: assets/images/favicon.png
+favicon: assets/images/favicon.png
+CNAME: #add cname for website to be created
+
+# Social info
+navigation: True # show the navbar links
+subscribers: True # you need to connect an external service for this to work,
+# if &amp;#39;True&amp;#39; the submit button is disabled for now, but you can change that
+# by editing `_includes/subscribe-form.html`
+twitter:  # replace by your username
+facebook:  # replace by your username
+
+# Disqus
+disqus: False
+disqus_shortname: jekyller # replace with your disqus username
+
+# Google Analytics
+google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:author
+# permalink: /tag/:tag
+
+# Authors&amp;#39; info in `_data/authors.yml`
+# Tags&amp;#39; info in `_data/tags_info.yml`
+
+# gems and other configs
+plugins_dir: [_plugins]
+plugins: [jekyll-paginate, jekyll-feed]
+
+feed:
+  path: feed.xml
+
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author&amp;#39;s page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post&amp;#39;s page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
+
+# Settings for building master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV[&amp;#39;GIT_NAME&amp;#39;] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to &amp;quot;source&amp;quot; for USERNAME.github.io
+# or &amp;quot;master&amp;quot; otherwise
+safe: False
+lsi: False
+username: libtv
+repo: libtv.github.io
+branch: master
+relative_source: 
+destination: ../jasper2-pages/
+production_url:  https://libtv.github.io/
+source_url:  https://github.com/libtv/libtv.github.io/
+
+exclude:
+  - assets/css
+  - node_modules
+  - vendor
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - GHOST.txt
+  - gulpfile.js
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - script.py
+  - changelog.md
+  - &amp;quot;*.Rmd&amp;quot;
+  - .git*
+  - backup
+&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt;           : gist 코드입니다.
+   ![name](assets/images/spring/spring1_1.png)                 : image를 삽입하는 코드입니다.
+ --&gt;
+
+</description>
+        
+        <pubDate>Thu, 06 May 2021 00:40:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/spring-num4</link>
+        <guid isPermaLink="true">http://localhost:4000/spring-num4</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Spring 개발일지(3) - 스프링 프로젝트 생성</title>
+        
+          <description>&lt;!--
+   &lt; 준호가 이용할 태그 정리&gt;
+   &lt;code class=&quot;highlighter-rouge&quot;&gt; &lt;/code&gt;                    : 어떠한 문장이나 단어를 하이라이트 할 때 사용합니다.
+   &lt;a target=&quot;_blank&quot;&gt; &lt;/a&gt;                                    : a 태그를 이용하여 문서를 이동하는데 사용합니다.
+   &lt;p&gt;&lt;strong  class=&quot;subtitle_fontAwesome&quot;&gt; &lt;/strong&gt;&lt;/p&gt;     : 주제를 기록할 때 사용합니다.
+   &gt;                                                           : 설명할 때 사용합니다.
+   &gt;  ** **                                                    : 코드를 적어야 하는 경우 사용합니다.
+   &lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
+markdown: kramdown
+highlighter: rouge
+paginate: 100 # it will paginate after this number
+language: &amp;#39;en-uk&amp;#39;
+words_per_minute: 200
+
+# edit baseurl to simply &amp;#39;/&amp;#39; if using as your personal page (instead of a project page)
+baseurl: /
+
+# Website info
+title: 웹 개발자, 김준호의 블로그
+description: The professional publishing platform
+cover: assets/images/blog-cover.jpg
+logo: assets/images/blog-icon.png
+logo_dark: assets/images/favicon.png
+favicon: assets/images/favicon.png
+CNAME: #add cname for website to be created
+
+# Social info
+navigation: True # show the navbar links
+subscribers: True # you need to connect an external service for this to work,
+# if &amp;#39;True&amp;#39; the submit button is disabled for now, but you can change that
+# by editing `_includes/subscribe-form.html`
+twitter:  # replace by your username
+facebook:  # replace by your username
+
+# Disqus
+disqus: False
+disqus_shortname: jekyller # replace with your disqus username
+
+# Google Analytics
+google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:author
+# permalink: /tag/:tag
+
+# Authors&amp;#39; info in `_data/authors.yml`
+# Tags&amp;#39; info in `_data/tags_info.yml`
+
+# gems and other configs
+plugins_dir: [_plugins]
+plugins: [jekyll-paginate, jekyll-feed]
+
+feed:
+  path: feed.xml
+
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author&amp;#39;s page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post&amp;#39;s page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
+
+# Settings for building master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV[&amp;#39;GIT_NAME&amp;#39;] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to &amp;quot;source&amp;quot; for USERNAME.github.io
+# or &amp;quot;master&amp;quot; otherwise
+safe: False
+lsi: False
+username: libtv
+repo: libtv.github.io
+branch: master
+relative_source: 
+destination: ../jasper2-pages/
+production_url:  https://libtv.github.io/
+source_url:  https://github.com/libtv/libtv.github.io/
+
+exclude:
+  - assets/css
+  - node_modules
+  - vendor
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - GHOST.txt
+  - gulpfile.js
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - script.py
+  - changelog.md
+  - &amp;quot;*.Rmd&amp;quot;
+  - .git*
+  - backup
+&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt;           : gist 코드입니다.
+   ![name](assets/images/spring/spring1_1.png)                 : image를 삽입하는 코드입니다.
+ --&gt;
+
+</description>
+        
+        <pubDate>Wed, 05 May 2021 00:40:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/spring-num3</link>
+        <guid isPermaLink="true">http://localhost:4000/spring-num3</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Spring 개발일지(2) - 개발환경 구축</title>
+        
+          <description>&lt;!--
+   &lt; 준호가 이용할 태그 정리&gt;
+   &lt;code class=&quot;highlighter-rouge&quot;&gt; &lt;/code&gt;                    : 어떠한 문장이나 단어를 하이라이트 할 때 사용합니다.
+   &lt;a target=&quot;_blank&quot;&gt; &lt;/a&gt;                                    : a 태그를 이용하여 문서를 이동하는데 사용합니다.
+   &lt;p&gt;&lt;strong  class=&quot;subtitle_fontAwesome&quot;&gt; &lt;/strong&gt;&lt;/p&gt;     : 주제를 기록할 때 사용합니다.
+   &gt;                                                           : 설명할 때 사용합니다.
+   &gt;  ** **                                                    : 코드를 적어야 하는 경우 사용합니다.
+   &lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
+markdown: kramdown
+highlighter: rouge
+paginate: 100 # it will paginate after this number
+language: &amp;#39;en-uk&amp;#39;
+words_per_minute: 200
+
+# edit baseurl to simply &amp;#39;/&amp;#39; if using as your personal page (instead of a project page)
+baseurl: /
+
+# Website info
+title: 웹 개발자, 김준호의 블로그
+description: The professional publishing platform
+cover: assets/images/blog-cover.jpg
+logo: assets/images/blog-icon.png
+logo_dark: assets/images/favicon.png
+favicon: assets/images/favicon.png
+CNAME: #add cname for website to be created
+
+# Social info
+navigation: True # show the navbar links
+subscribers: True # you need to connect an external service for this to work,
+# if &amp;#39;True&amp;#39; the submit button is disabled for now, but you can change that
+# by editing `_includes/subscribe-form.html`
+twitter:  # replace by your username
+facebook:  # replace by your username
+
+# Disqus
+disqus: False
+disqus_shortname: jekyller # replace with your disqus username
+
+# Google Analytics
+google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:author
+# permalink: /tag/:tag
+
+# Authors&amp;#39; info in `_data/authors.yml`
+# Tags&amp;#39; info in `_data/tags_info.yml`
+
+# gems and other configs
+plugins_dir: [_plugins]
+plugins: [jekyll-paginate, jekyll-feed]
+
+feed:
+  path: feed.xml
+
+# Additional settings available on the front-matter
+# Site logo in the index.html (as in demo.ghost.io)
+# Author&amp;#39;s page cover in _layouts/author.html
+# The same for page.html and tag.html layouts
+# Post&amp;#39;s page cover as a per-post basis _posts/...
+# Disqus comments as a per-post basis
+# ...
+
+# Settings for building master branch with travis-ci
+# with jekyll-travis
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV[&amp;#39;GIT_NAME&amp;#39;] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to &amp;quot;source&amp;quot; for USERNAME.github.io
+# or &amp;quot;master&amp;quot; otherwise
+safe: False
+lsi: False
+username: libtv
+repo: libtv.github.io
+branch: master
+relative_source: 
+destination: ../jasper2-pages/
+production_url:  https://libtv.github.io/
+source_url:  https://github.com/libtv/libtv.github.io/
+
+exclude:
+  - assets/css
+  - node_modules
+  - vendor
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - GHOST.txt
+  - gulpfile.js
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - script.py
+  - changelog.md
+  - &amp;quot;*.Rmd&amp;quot;
+  - .git*
+  - backup
+&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt;           : gist 코드입니다.
+   ![name](assets/images/spring/spring1_1.png)                 : image를 삽입하는 코드입니다.
+ --&gt;
+
+</description>
+        
+        <pubDate>Tue, 04 May 2021 20:40:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/spring-num2</link>
+        <guid isPermaLink="true">http://localhost:4000/spring-num2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Python 강좌(2) - Python 제어문</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 03 May 2021 01:40:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/python-control-statement</link>
+        <guid isPermaLink="true">http://localhost:4000/python-control-statement</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Jekyll 강좌(1) - Jekyll 기본</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Jekyll 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./jekyll-basic&quot;&gt;Jekyll 강좌(1) - Jekyll 기본&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 03 May 2021 01:40:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/jekyll-basic</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Spring 개발일지(1) - 기본적인 상식</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Spring 개발일지는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num1&quot;&gt;Spring 개발일지(1) - 기본적인 상식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num2&quot;&gt;Spring 개발일지(2) - 개발환경 구축&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num3&quot;&gt;Spring 개발일지(3) - 스프링 프로젝트 생성&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num4&quot;&gt;Spring 개발일지(4) - 자바로 스프링 개발&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num5&quot;&gt;Spring 개발일지(5) - 의존성 주입(DI)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong class=&quot;subtitle_fontAwesome&quot;&gt;스프링 프레임워크&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%94%84%EB%A7%81_%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC&quot; target=&quot;_blank&quot;&gt;스프링 프레임워크&lt;/a&gt; (“영어”): Spring Framework)는 &lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%ED%94%8C%EB%9E%AB%ED%8F%BC)&quot;&gt;자바 플랫폼&lt;/a&gt;을 위한 &lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%98%A4%ED%94%88_%EC%86%8C%EC%8A%A4&quot; title=&quot;오픈 소스&quot;&gt;오픈 소스&lt;/a&gt;  &lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98_%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC&quot; title=&quot;애플리케이션 프레임워크&quot;&gt;애플리케이션 프레임워크&lt;/a&gt;로서 간단히 &lt;strong&gt;스프링&lt;/strong&gt;(Spring)이라고도 한다. 동적인 웹 사이트를 개발하기 위한 여러 가지 서비스를 제공하고 있다. 대한민국 &lt;a href=&quot;https://ko.wikipedia.org/wiki/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80&quot; title=&quot;공공기관&quot;&gt;공공기관&lt;/a&gt;의 웹 서비스 개발 시 사용을 권장하고 있는 &lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%A0%84%EC%9E%90%EC%A0%95%EB%B6%80_%ED%91%9C%EC%A4%80%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC&quot; title=&quot;전자정부 표준프레임워크&quot;&gt;전자정부 표준프레임워크&lt;/a&gt;의 기반 기술로서 쓰이고 있다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 02 May 2021 01:40:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/spring-num1</link>
+        <guid isPermaLink="true">http://localhost:4000/spring-num1</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Python 강좌(1) - Python 기본</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sun, 02 May 2021 01:40:00 +0900</pubDate>
+        <link>
+        http://localhost:4000/python-basic</link>
+        <guid isPermaLink="true">http://localhost:4000/python-basic</guid>
+      </item>
+      
+    
+  </channel>
+</rss>

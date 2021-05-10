@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/tag/spring/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2021-05-10T17:42:09+09:00</updated>
+  <updated>2021-05-10T17:49:19+09:00</updated>
   <id>http://localhost:4000/tag/spring/feed.xml</id>
 
   
@@ -38,109 +38,13 @@
       <updated>2021-05-07T00:40:00+09:00</updated>
       <id>http://localhost:4000/spring-num5</id>
       <content type="html" xml:base="http://localhost:4000/spring-num5">&lt;!--
-   &lt; 준호가 이용할 태그 정리&gt;
+   &lt; 종선이가 이용할 태그 정리&gt;
    &lt;code class=&quot;highlighter-rouge&quot;&gt; &lt;/code&gt;                    : 어떠한 문장이나 단어를 하이라이트 할 때 사용합니다.
    &lt;a target=&quot;_blank&quot;&gt; &lt;/a&gt;                                    : a 태그를 이용하여 문서를 이동하는데 사용합니다.
    &lt;p&gt;&lt;strong  class=&quot;subtitle_fontAwesome&quot;&gt; &lt;/strong&gt;&lt;/p&gt;     : 주제를 기록할 때 사용합니다.
    &gt;                                                           : 설명할 때 사용합니다.
    &gt;  ** **                                                    : 코드를 적어야 하는 경우 사용합니다.
-   &lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: &amp;#39;en-uk&amp;#39;
-words_per_minute: 200
-
-# edit baseurl to simply &amp;#39;/&amp;#39; if using as your personal page (instead of a project page)
-baseurl: /
-
-# Website info
-title: 웹 개발자, 김준호의 블로그
-description: The professional publishing platform
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
-CNAME: #add cname for website to be created
-
-# Social info
-navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
-# if &amp;#39;True&amp;#39; the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
-twitter:  # replace by your username
-facebook:  # replace by your username
-
-# Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
-
-# Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
-
-# Permalinks
-permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
-
-# Authors&amp;#39; info in `_data/authors.yml`
-# Tags&amp;#39; info in `_data/tags_info.yml`
-
-# gems and other configs
-plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
-
-feed:
-  path: feed.xml
-
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author&amp;#39;s page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post&amp;#39;s page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
-
-# Settings for building master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV[&amp;#39;GIT_NAME&amp;#39;] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to &amp;quot;source&amp;quot; for USERNAME.github.io
-# or &amp;quot;master&amp;quot; otherwise
-safe: False
-lsi: False
-username: libtv
-repo: libtv.github.io
-branch: master
-relative_source: 
-destination: ../jasper2-pages/
-production_url:  https://libtv.github.io/
-source_url:  https://github.com/libtv/libtv.github.io/
-
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - &amp;quot;*.Rmd&amp;quot;
-  - .git*
-  - backup
-&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt;           : gist 코드입니다.
+   &lt;noscript&gt;&lt;pre&gt;404: Not Found&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/nusgnojkrap/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt;           : gist 코드입니다.
    ![name](assets/images/spring/spring1_1.png)                 : image를 삽입하는 코드입니다.
  --&gt;
 
@@ -155,7 +59,7 @@ exclude:
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;strong class=&quot;subtitle_fontAwesome&quot;&gt;설명하기에 앞서&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;안녕하세요. 풀스택 개발자를 위해 달려나가는 &lt;a target=&quot;_blank&quot;&gt;김준호&lt;/a&gt; 입니다.
+&lt;p&gt;안녕하세요. 풀스택 개발자를 위해 달려나가는 &lt;a target=&quot;_blank&quot;&gt;박종선&lt;/a&gt; 입니다.
 &lt;br /&gt;이번 블로그 내용에서는 
 &lt;code class=&quot;highlighter-rouge&quot;&gt;Spring DI(Dependecy Injection)&lt;/code&gt;을 알아볼 예정입니다.&lt;br /&gt;
 천천히 시간을 가지면서 이해해보도록 합시다. 그러면 시작해보도록 하죠!&lt;/p&gt;
@@ -244,103 +148,7 @@ function syntaxHighlight(code) {
 }
 ~~~
 
-&lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: &amp;#39;en-uk&amp;#39;
-words_per_minute: 200
-
-# edit baseurl to simply &amp;#39;/&amp;#39; if using as your personal page (instead of a project page)
-baseurl: /
-
-# Website info
-title: 웹 개발자, 김준호의 블로그
-description: The professional publishing platform
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
-CNAME: #add cname for website to be created
-
-# Social info
-navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
-# if &amp;#39;True&amp;#39; the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
-twitter:  # replace by your username
-facebook:  # replace by your username
-
-# Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
-
-# Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
-
-# Permalinks
-permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
-
-# Authors&amp;#39; info in `_data/authors.yml`
-# Tags&amp;#39; info in `_data/tags_info.yml`
-
-# gems and other configs
-plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
-
-feed:
-  path: feed.xml
-
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author&amp;#39;s page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post&amp;#39;s page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
-
-# Settings for building master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV[&amp;#39;GIT_NAME&amp;#39;] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to &amp;quot;source&amp;quot; for USERNAME.github.io
-# or &amp;quot;master&amp;quot; otherwise
-safe: False
-lsi: False
-username: libtv
-repo: libtv.github.io
-branch: master
-relative_source: 
-destination: ../jasper2-pages/
-production_url:  https://libtv.github.io/
-source_url:  https://github.com/libtv/libtv.github.io/
-
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - &amp;quot;*.Rmd&amp;quot;
-  - .git*
-  - backup
-&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt; 
+&lt;noscript&gt;&lt;pre&gt;404: Not Found&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/nusgnojkrap/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt; 
 --&gt;</content>
 
       
@@ -350,7 +158,7 @@ exclude:
       
 
       <author>
-          <name>libtv</name>
+          <name>박종선</name>
         
         
       </author>
@@ -376,109 +184,13 @@ exclude:
       <updated>2021-05-06T00:40:00+09:00</updated>
       <id>http://localhost:4000/spring-num4</id>
       <content type="html" xml:base="http://localhost:4000/spring-num4">&lt;!--
-   &lt; 준호가 이용할 태그 정리&gt;
+   &lt; 종선이가 이용할 태그 정리&gt;
    &lt;code class=&quot;highlighter-rouge&quot;&gt; &lt;/code&gt;                    : 어떠한 문장이나 단어를 하이라이트 할 때 사용합니다.
    &lt;a target=&quot;_blank&quot;&gt; &lt;/a&gt;                                    : a 태그를 이용하여 문서를 이동하는데 사용합니다.
    &lt;p&gt;&lt;strong  class=&quot;subtitle_fontAwesome&quot;&gt; &lt;/strong&gt;&lt;/p&gt;     : 주제를 기록할 때 사용합니다.
    &gt;                                                           : 설명할 때 사용합니다.
    &gt;  ** **                                                    : 코드를 적어야 하는 경우 사용합니다.
-   &lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: &amp;#39;en-uk&amp;#39;
-words_per_minute: 200
-
-# edit baseurl to simply &amp;#39;/&amp;#39; if using as your personal page (instead of a project page)
-baseurl: /
-
-# Website info
-title: 웹 개발자, 김준호의 블로그
-description: The professional publishing platform
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
-CNAME: #add cname for website to be created
-
-# Social info
-navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
-# if &amp;#39;True&amp;#39; the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
-twitter:  # replace by your username
-facebook:  # replace by your username
-
-# Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
-
-# Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
-
-# Permalinks
-permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
-
-# Authors&amp;#39; info in `_data/authors.yml`
-# Tags&amp;#39; info in `_data/tags_info.yml`
-
-# gems and other configs
-plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
-
-feed:
-  path: feed.xml
-
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author&amp;#39;s page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post&amp;#39;s page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
-
-# Settings for building master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV[&amp;#39;GIT_NAME&amp;#39;] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to &amp;quot;source&amp;quot; for USERNAME.github.io
-# or &amp;quot;master&amp;quot; otherwise
-safe: False
-lsi: False
-username: libtv
-repo: libtv.github.io
-branch: master
-relative_source: 
-destination: ../jasper2-pages/
-production_url:  https://libtv.github.io/
-source_url:  https://github.com/libtv/libtv.github.io/
-
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - &amp;quot;*.Rmd&amp;quot;
-  - .git*
-  - backup
-&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt;           : gist 코드입니다.
+   &lt;noscript&gt;&lt;pre&gt;404: Not Found&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/nusgnojkrap/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt;           : gist 코드입니다.
    ![name](assets/images/spring/spring1_1.png)                 : image를 삽입하는 코드입니다.
  --&gt;
 
@@ -493,7 +205,7 @@ exclude:
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;strong class=&quot;subtitle_fontAwesome&quot;&gt;설명하기에 앞서&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;안녕하세요. 풀스택 개발자를 위해 달려나가는 &lt;a target=&quot;_blank&quot;&gt;김준호&lt;/a&gt; 입니다.
+&lt;p&gt;안녕하세요. 풀스택 개발자를 위해 달려나가는 &lt;a target=&quot;_blank&quot;&gt;박종선&lt;/a&gt; 입니다.
 &lt;br /&gt;이번 블로그 내용에서는 
 &lt;code class=&quot;highlighter-rouge&quot;&gt;JAVA&lt;/code&gt;를 이용하여 직접 &lt;code class=&quot;highlighter-rouge&quot;&gt;Spring&lt;/code&gt;을 적용하여 개발하는 시간을 갖도록 하겠습니다.&lt;br /&gt;
 코드를 먼저 적용하면서 설명을 덧붙이도록 하죠. &lt;br /&gt;그러면 시작해보겠습니다.&lt;/p&gt;
@@ -657,103 +369,7 @@ function syntaxHighlight(code) {
 }
 ~~~
 
-&lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: &amp;#39;en-uk&amp;#39;
-words_per_minute: 200
-
-# edit baseurl to simply &amp;#39;/&amp;#39; if using as your personal page (instead of a project page)
-baseurl: /
-
-# Website info
-title: 웹 개발자, 김준호의 블로그
-description: The professional publishing platform
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
-CNAME: #add cname for website to be created
-
-# Social info
-navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
-# if &amp;#39;True&amp;#39; the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
-twitter:  # replace by your username
-facebook:  # replace by your username
-
-# Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
-
-# Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
-
-# Permalinks
-permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
-
-# Authors&amp;#39; info in `_data/authors.yml`
-# Tags&amp;#39; info in `_data/tags_info.yml`
-
-# gems and other configs
-plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
-
-feed:
-  path: feed.xml
-
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author&amp;#39;s page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post&amp;#39;s page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
-
-# Settings for building master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV[&amp;#39;GIT_NAME&amp;#39;] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to &amp;quot;source&amp;quot; for USERNAME.github.io
-# or &amp;quot;master&amp;quot; otherwise
-safe: False
-lsi: False
-username: libtv
-repo: libtv.github.io
-branch: master
-relative_source: 
-destination: ../jasper2-pages/
-production_url:  https://libtv.github.io/
-source_url:  https://github.com/libtv/libtv.github.io/
-
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - &amp;quot;*.Rmd&amp;quot;
-  - .git*
-  - backup
-&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt; 
+&lt;noscript&gt;&lt;pre&gt;404: Not Found&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/nusgnojkrap/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt; 
 --&gt;</content>
 
       
@@ -763,7 +379,7 @@ exclude:
       
 
       <author>
-          <name>libtv</name>
+          <name>박종선</name>
         
         
       </author>
@@ -789,109 +405,13 @@ exclude:
       <updated>2021-05-05T00:40:00+09:00</updated>
       <id>http://localhost:4000/spring-num3</id>
       <content type="html" xml:base="http://localhost:4000/spring-num3">&lt;!--
-   &lt; 준호가 이용할 태그 정리&gt;
+   &lt; 종선이가 이용할 태그 정리&gt;
    &lt;code class=&quot;highlighter-rouge&quot;&gt; &lt;/code&gt;                    : 어떠한 문장이나 단어를 하이라이트 할 때 사용합니다.
    &lt;a target=&quot;_blank&quot;&gt; &lt;/a&gt;                                    : a 태그를 이용하여 문서를 이동하는데 사용합니다.
    &lt;p&gt;&lt;strong  class=&quot;subtitle_fontAwesome&quot;&gt; &lt;/strong&gt;&lt;/p&gt;     : 주제를 기록할 때 사용합니다.
    &gt;                                                           : 설명할 때 사용합니다.
    &gt;  ** **                                                    : 코드를 적어야 하는 경우 사용합니다.
-   &lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: &amp;#39;en-uk&amp;#39;
-words_per_minute: 200
-
-# edit baseurl to simply &amp;#39;/&amp;#39; if using as your personal page (instead of a project page)
-baseurl: /
-
-# Website info
-title: 웹 개발자, 김준호의 블로그
-description: The professional publishing platform
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
-CNAME: #add cname for website to be created
-
-# Social info
-navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
-# if &amp;#39;True&amp;#39; the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
-twitter:  # replace by your username
-facebook:  # replace by your username
-
-# Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
-
-# Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
-
-# Permalinks
-permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
-
-# Authors&amp;#39; info in `_data/authors.yml`
-# Tags&amp;#39; info in `_data/tags_info.yml`
-
-# gems and other configs
-plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
-
-feed:
-  path: feed.xml
-
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author&amp;#39;s page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post&amp;#39;s page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
-
-# Settings for building master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV[&amp;#39;GIT_NAME&amp;#39;] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to &amp;quot;source&amp;quot; for USERNAME.github.io
-# or &amp;quot;master&amp;quot; otherwise
-safe: False
-lsi: False
-username: libtv
-repo: libtv.github.io
-branch: master
-relative_source: 
-destination: ../jasper2-pages/
-production_url:  https://libtv.github.io/
-source_url:  https://github.com/libtv/libtv.github.io/
-
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - &amp;quot;*.Rmd&amp;quot;
-  - .git*
-  - backup
-&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt;           : gist 코드입니다.
+   &lt;noscript&gt;&lt;pre&gt;404: Not Found&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/nusgnojkrap/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt;           : gist 코드입니다.
    ![name](assets/images/spring/spring1_1.png)                 : image를 삽입하는 코드입니다.
  --&gt;
 
@@ -906,7 +426,7 @@ exclude:
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;strong class=&quot;subtitle_fontAwesome&quot;&gt;설명하기에 앞서&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;안녕하세요. 풀스택 개발자를 위해 달려나가는 &lt;a target=&quot;_blank&quot;&gt;김준호&lt;/a&gt; 입니다.
+&lt;p&gt;안녕하세요. 풀스택 개발자를 위해 달려나가는 &lt;a target=&quot;_blank&quot;&gt;박종선&lt;/a&gt; 입니다.
 &lt;br /&gt;이번 블로그 내용에서는 
 &lt;code class=&quot;highlighter-rouge&quot;&gt;Spring&lt;/code&gt; 프로젝트를 생성하는 과정을 설명하도록 하겠습니다. &lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;Maven&lt;/code&gt;을 이용한 스프링 프로젝트를 생성할 것입니다. 천천히 따라오면서 프로젝트의 뼈대와 기초부터 천천히 파악하는 것이 중요합니다. 그러면 시작해보도록 하죠!&lt;/p&gt;
@@ -950,38 +470,8 @@ exclude:
   &lt;p&gt;그러면 일단 스프링 프로젝트로 적용하기 위한 모듈들을 불러오도록 하겠습니다. 아래 코드를 붙여넣도록 합시다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;noscript&gt;&lt;pre&gt;&amp;lt;project xmlns=&amp;quot;http://maven.apache.org/POM/4.0.0&amp;quot; 
-		 xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; 
-		 xsi:schemaLocation=&amp;quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&amp;quot;&amp;gt;
-	&amp;lt;modelVersion&amp;gt;4.0.0&amp;lt;/modelVersion&amp;gt;
-	&amp;lt;groupId&amp;gt;spring4&amp;lt;/groupId&amp;gt;
-	&amp;lt;artifactId&amp;gt;test&amp;lt;/artifactId&amp;gt;
-	&amp;lt;version&amp;gt;0.0.1-SNAPSHOT&amp;lt;/version&amp;gt;
- 
-   	&amp;lt;dependencies&amp;gt;
-		&amp;lt;dependency&amp;gt;
-			&amp;lt;groupId&amp;gt;org.springframework&amp;lt;/groupId&amp;gt;
-			&amp;lt;artifactId&amp;gt;spring-context&amp;lt;/artifactId&amp;gt;
-			&amp;lt;version&amp;gt;4.0.0.RELEASE&amp;lt;/version&amp;gt;
-		&amp;lt;/dependency&amp;gt;
-
-	&amp;lt;/dependencies&amp;gt;
-
-	&amp;lt;build&amp;gt;
-		&amp;lt;plugins&amp;gt;
-			&amp;lt;plugin&amp;gt;
-				&amp;lt;artifactId&amp;gt;maven-compiler-plugin&amp;lt;/artifactId&amp;gt;
-				&amp;lt;version&amp;gt;3.1&amp;lt;/version&amp;gt;
-				&amp;lt;configuration&amp;gt;
-					&amp;lt;source&amp;gt;1.8&amp;lt;/source&amp;gt;
-					&amp;lt;target&amp;gt;1.8&amp;lt;/target&amp;gt;
-					&amp;lt;encoding&amp;gt;utf-8&amp;lt;/encoding&amp;gt;
-				&amp;lt;/configuration&amp;gt;
-			&amp;lt;/plugin&amp;gt;
-		&amp;lt;/plugins&amp;gt;
-	&amp;lt;/build&amp;gt;
-&amp;lt;/project&amp;gt;&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/libtv/f53087b896e0991964e399a588ee9778.js&quot;&gt; &lt;/script&gt;
+&lt;noscript&gt;&lt;pre&gt;404: Not Found&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/nusgnojkrap/f53087b896e0991964e399a588ee9778.js&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dependencies&lt;/code&gt; : 의존 라이브러리를 가져올 목록들을 의미합니다.&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;dependency&lt;/code&gt; : 하나의 의존되는 라이브러리를 가져오는 것을 뜻하며 현재는 스프링 라이브러리를 가져온다는 뜻 입니다.&lt;br /&gt;
@@ -1047,103 +537,7 @@ function syntaxHighlight(code) {
 }
 ~~~
 
-&lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: &amp;#39;en-uk&amp;#39;
-words_per_minute: 200
-
-# edit baseurl to simply &amp;#39;/&amp;#39; if using as your personal page (instead of a project page)
-baseurl: /
-
-# Website info
-title: 웹 개발자, 김준호의 블로그
-description: The professional publishing platform
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
-CNAME: #add cname for website to be created
-
-# Social info
-navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
-# if &amp;#39;True&amp;#39; the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
-twitter:  # replace by your username
-facebook:  # replace by your username
-
-# Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
-
-# Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
-
-# Permalinks
-permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
-
-# Authors&amp;#39; info in `_data/authors.yml`
-# Tags&amp;#39; info in `_data/tags_info.yml`
-
-# gems and other configs
-plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
-
-feed:
-  path: feed.xml
-
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author&amp;#39;s page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post&amp;#39;s page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
-
-# Settings for building master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV[&amp;#39;GIT_NAME&amp;#39;] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to &amp;quot;source&amp;quot; for USERNAME.github.io
-# or &amp;quot;master&amp;quot; otherwise
-safe: False
-lsi: False
-username: libtv
-repo: libtv.github.io
-branch: master
-relative_source: 
-destination: ../jasper2-pages/
-production_url:  https://libtv.github.io/
-source_url:  https://github.com/libtv/libtv.github.io/
-
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - &amp;quot;*.Rmd&amp;quot;
-  - .git*
-  - backup
-&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt; 
+&lt;noscript&gt;&lt;pre&gt;404: Not Found&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/nusgnojkrap/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt; 
 --&gt;</content>
 
       
@@ -1153,7 +547,7 @@ exclude:
       
 
       <author>
-          <name>libtv</name>
+          <name>박종선</name>
         
         
       </author>
@@ -1179,109 +573,13 @@ exclude:
       <updated>2021-05-04T20:40:00+09:00</updated>
       <id>http://localhost:4000/spring-num2</id>
       <content type="html" xml:base="http://localhost:4000/spring-num2">&lt;!--
-   &lt; 준호가 이용할 태그 정리&gt;
+   &lt; 종선이가 이용할 태그 정리&gt;
    &lt;code class=&quot;highlighter-rouge&quot;&gt; &lt;/code&gt;                    : 어떠한 문장이나 단어를 하이라이트 할 때 사용합니다.
    &lt;a target=&quot;_blank&quot;&gt; &lt;/a&gt;                                    : a 태그를 이용하여 문서를 이동하는데 사용합니다.
    &lt;p&gt;&lt;strong  class=&quot;subtitle_fontAwesome&quot;&gt; &lt;/strong&gt;&lt;/p&gt;     : 주제를 기록할 때 사용합니다.
    &gt;                                                           : 설명할 때 사용합니다.
    &gt;  ** **                                                    : 코드를 적어야 하는 경우 사용합니다.
-   &lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: &amp;#39;en-uk&amp;#39;
-words_per_minute: 200
-
-# edit baseurl to simply &amp;#39;/&amp;#39; if using as your personal page (instead of a project page)
-baseurl: /
-
-# Website info
-title: 웹 개발자, 김준호의 블로그
-description: The professional publishing platform
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
-CNAME: #add cname for website to be created
-
-# Social info
-navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
-# if &amp;#39;True&amp;#39; the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
-twitter:  # replace by your username
-facebook:  # replace by your username
-
-# Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
-
-# Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
-
-# Permalinks
-permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
-
-# Authors&amp;#39; info in `_data/authors.yml`
-# Tags&amp;#39; info in `_data/tags_info.yml`
-
-# gems and other configs
-plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
-
-feed:
-  path: feed.xml
-
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author&amp;#39;s page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post&amp;#39;s page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
-
-# Settings for building master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV[&amp;#39;GIT_NAME&amp;#39;] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to &amp;quot;source&amp;quot; for USERNAME.github.io
-# or &amp;quot;master&amp;quot; otherwise
-safe: False
-lsi: False
-username: libtv
-repo: libtv.github.io
-branch: master
-relative_source: 
-destination: ../jasper2-pages/
-production_url:  https://libtv.github.io/
-source_url:  https://github.com/libtv/libtv.github.io/
-
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - &amp;quot;*.Rmd&amp;quot;
-  - .git*
-  - backup
-&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt;           : gist 코드입니다.
+   &lt;noscript&gt;&lt;pre&gt;404: Not Found&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/nusgnojkrap/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt;           : gist 코드입니다.
    ![name](assets/images/spring/spring1_1.png)                 : image를 삽입하는 코드입니다.
  --&gt;
 
@@ -1296,7 +594,7 @@ exclude:
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;strong class=&quot;subtitle_fontAwesome&quot;&gt;설명하기에 앞서&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;안녕하세요. 풀스택 개발자를 위해 달려나가는 &lt;a target=&quot;_blank&quot;&gt;김준호&lt;/a&gt; 입니다.
+&lt;p&gt;안녕하세요. 풀스택 개발자를 위해 달려나가는 &lt;a target=&quot;_blank&quot;&gt;박종선&lt;/a&gt; 입니다.
 &lt;br /&gt;이번 블로그 내용에서는 
 &lt;code class=&quot;highlighter-rouge&quot;&gt;자바&lt;/code&gt;와 
 &lt;code class=&quot;highlighter-rouge&quot;&gt;이클립스&lt;/code&gt;를 가지고 스프링 개발 환경을 위한 설치 및 환경 설정에 관한 내용입니다. 
@@ -1455,103 +753,7 @@ function syntaxHighlight(code) {
 
 
 
-&lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: &amp;#39;en-uk&amp;#39;
-words_per_minute: 200
-
-# edit baseurl to simply &amp;#39;/&amp;#39; if using as your personal page (instead of a project page)
-baseurl: /
-
-# Website info
-title: 웹 개발자, 김준호의 블로그
-description: The professional publishing platform
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
-CNAME: #add cname for website to be created
-
-# Social info
-navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
-# if &amp;#39;True&amp;#39; the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
-twitter:  # replace by your username
-facebook:  # replace by your username
-
-# Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
-
-# Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
-
-# Permalinks
-permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
-
-# Authors&amp;#39; info in `_data/authors.yml`
-# Tags&amp;#39; info in `_data/tags_info.yml`
-
-# gems and other configs
-plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
-
-feed:
-  path: feed.xml
-
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author&amp;#39;s page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post&amp;#39;s page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
-
-# Settings for building master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV[&amp;#39;GIT_NAME&amp;#39;] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to &amp;quot;source&amp;quot; for USERNAME.github.io
-# or &amp;quot;master&amp;quot; otherwise
-safe: False
-lsi: False
-username: libtv
-repo: libtv.github.io
-branch: master
-relative_source: 
-destination: ../jasper2-pages/
-production_url:  https://libtv.github.io/
-source_url:  https://github.com/libtv/libtv.github.io/
-
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - &amp;quot;*.Rmd&amp;quot;
-  - .git*
-  - backup
-&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt; 
+&lt;noscript&gt;&lt;pre&gt;404: Not Found&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/nusgnojkrap/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt; 
 --&gt;</content>
 
       
@@ -1561,7 +763,7 @@ exclude:
       
 
       <author>
-          <name>libtv</name>
+          <name>박종선</name>
         
         
       </author>
@@ -1651,103 +853,7 @@ function syntaxHighlight(code) {
 
 
 
-&lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: &amp;#39;en-uk&amp;#39;
-words_per_minute: 200
-
-# edit baseurl to simply &amp;#39;/&amp;#39; if using as your personal page (instead of a project page)
-baseurl: /
-
-# Website info
-title: 웹 개발자, 김준호의 블로그
-description: The professional publishing platform
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
-CNAME: #add cname for website to be created
-
-# Social info
-navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
-# if &amp;#39;True&amp;#39; the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
-twitter:  # replace by your username
-facebook:  # replace by your username
-
-# Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
-
-# Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
-
-# Permalinks
-permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
-
-# Authors&amp;#39; info in `_data/authors.yml`
-# Tags&amp;#39; info in `_data/tags_info.yml`
-
-# gems and other configs
-plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
-
-feed:
-  path: feed.xml
-
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author&amp;#39;s page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post&amp;#39;s page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
-
-# Settings for building master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV[&amp;#39;GIT_NAME&amp;#39;] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to &amp;quot;source&amp;quot; for USERNAME.github.io
-# or &amp;quot;master&amp;quot; otherwise
-safe: False
-lsi: False
-username: libtv
-repo: libtv.github.io
-branch: master
-relative_source: 
-destination: ../jasper2-pages/
-production_url:  https://libtv.github.io/
-source_url:  https://github.com/libtv/libtv.github.io/
-
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - &amp;quot;*.Rmd&amp;quot;
-  - .git*
-  - backup
-&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt; --&gt;</content>
+&lt;noscript&gt;&lt;pre&gt;404: Not Found&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/nusgnojkrap/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt; --&gt;</content>
 
       
       
@@ -1756,7 +862,7 @@ exclude:
       
 
       <author>
-          <name>libtv</name>
+          <name>박종선</name>
         
         
       </author>

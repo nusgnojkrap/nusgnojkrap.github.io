@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/tag/python/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2021-05-10T17:42:09+09:00</updated>
+  <updated>2021-05-10T17:49:19+09:00</updated>
   <id>http://localhost:4000/tag/python/feed.xml</id>
 
   
@@ -52,7 +52,7 @@
       
 
       <author>
-          <name>libtv</name>
+          <name>박종선</name>
         
         
       </author>
@@ -90,104 +90,8 @@
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;noscript&gt;&lt;pre&gt;# Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: &amp;#39;en-uk&amp;#39;
-words_per_minute: 200
-
-# edit baseurl to simply &amp;#39;/&amp;#39; if using as your personal page (instead of a project page)
-baseurl: /
-
-# Website info
-title: 웹 개발자, 김준호의 블로그
-description: The professional publishing platform
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
-CNAME: #add cname for website to be created
-
-# Social info
-navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
-# if &amp;#39;True&amp;#39; the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
-twitter:  # replace by your username
-facebook:  # replace by your username
-
-# Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
-
-# Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
-
-# Permalinks
-permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
-
-# Authors&amp;#39; info in `_data/authors.yml`
-# Tags&amp;#39; info in `_data/tags_info.yml`
-
-# gems and other configs
-plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
-
-feed:
-  path: feed.xml
-
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author&amp;#39;s page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post&amp;#39;s page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
-
-# Settings for building master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV[&amp;#39;GIT_NAME&amp;#39;] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to &amp;quot;source&amp;quot; for USERNAME.github.io
-# or &amp;quot;master&amp;quot; otherwise
-safe: False
-lsi: False
-username: libtv
-repo: libtv.github.io
-branch: master
-relative_source: 
-destination: ../jasper2-pages/
-production_url:  https://libtv.github.io/
-source_url:  https://github.com/libtv/libtv.github.io/
-
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - &amp;quot;*.Rmd&amp;quot;
-  - .git*
-  - backup
-&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt;</content>
+&lt;noscript&gt;&lt;pre&gt;404: Not Found&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/nusgnojkrap/b04c361f69890ed6927fbfaddabaf612.js&quot;&gt; &lt;/script&gt;</content>
 
       
       
@@ -196,7 +100,7 @@ exclude:
       
 
       <author>
-          <name>libtv</name>
+          <name>박종선</name>
         
         
       </author>

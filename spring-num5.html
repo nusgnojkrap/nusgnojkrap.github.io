@@ -57,7 +57,7 @@
     <meta property="og:site_name" content="종선의 개발일지" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Spring 개발일지(5) - 의존성 주입(DI)" />
-    <meta property="og:description" content="Spring 개발일지는 여러 절로 구성되어 있습니다. Spring 개발일지(1) - 기본적인 상식 Spring 개발일지(2) - 개발환경 구축 Spring 개발일지(3) - 스프링 프로젝트 생성 Spring 개발일지(4) - 자바로 스프링 개발 Spring 개발일지(5) - 의존성 주입(DI) 설명하기에 앞서 안녕하세요. 풀스택 개발자를 위해 달려나가는 김준호 입니다. 이번 블로그 내용에서는 Spring DI(Dependecy Injection)을 알아볼 예정입니다." />
+    <meta property="og:description" content="Spring 개발일지는 여러 절로 구성되어 있습니다. Spring 개발일지(1) - 기본적인 상식 Spring 개발일지(2) - 개발환경 구축 Spring 개발일지(3) - 스프링 프로젝트 생성 Spring 개발일지(4) - 자바로 스프링 개발 Spring 개발일지(5) - 의존성 주입(DI) 설명하기에 앞서 안녕하세요. 풀스택 개발자를 위해 달려나가는 박종선 입니다. 이번 블로그 내용에서는 Spring DI(Dependecy Injection)을 알아볼 예정입니다." />
     <meta property="og:url" content="http://localhost:4000/spring-num5" />
     <meta property="og:image" content="http://localhost:4000/assets/images/spring.png" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -67,7 +67,7 @@
     <meta property="article:tag" content="Spring" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Spring 개발일지(5) - 의존성 주입(DI)" />
-    <meta name="twitter:description" content="Spring 개발일지는 여러 절로 구성되어 있습니다. Spring 개발일지(1) - 기본적인 상식 Spring 개발일지(2) - 개발환경 구축 Spring 개발일지(3) - 스프링 프로젝트 생성 Spring 개발일지(4) - 자바로 스프링 개발 Spring 개발일지(5) - 의존성 주입(DI) 설명하기에 앞서 안녕하세요. 풀스택 개발자를 위해 달려나가는 김준호 입니다. 이번 블로그 내용에서는 Spring DI(Dependecy Injection)을 알아볼 예정입니다." />
+    <meta name="twitter:description" content="Spring 개발일지는 여러 절로 구성되어 있습니다. Spring 개발일지(1) - 기본적인 상식 Spring 개발일지(2) - 개발환경 구축 Spring 개발일지(3) - 스프링 프로젝트 생성 Spring 개발일지(4) - 자바로 스프링 개발 Spring 개발일지(5) - 의존성 주입(DI) 설명하기에 앞서 안녕하세요. 풀스택 개발자를 위해 달려나가는 박종선 입니다. 이번 블로그 내용에서는 Spring DI(Dependecy Injection)을 알아볼 예정입니다." />
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/assets/images/spring.png" />
     <meta name="twitter:label1" content="Written by" />
@@ -99,7 +99,7 @@
         "@type": "WebPage",
         "@id": "http://localhost:4000/spring-num5"
     },
-    "description": "Spring 개발일지는 여러 절로 구성되어 있습니다. Spring 개발일지(1) - 기본적인 상식 Spring 개발일지(2) - 개발환경 구축 Spring 개발일지(3) - 스프링 프로젝트 생성 Spring 개발일지(4) - 자바로 스프링 개발 Spring 개발일지(5) - 의존성 주입(DI) 설명하기에 앞서 안녕하세요. 풀스택 개발자를 위해 달려나가는 김준호 입니다. 이번 블로그 내용에서는 Spring DI(Dependecy Injection)을 알아볼 예정입니다."
+    "description": "Spring 개발일지는 여러 절로 구성되어 있습니다. Spring 개발일지(1) - 기본적인 상식 Spring 개발일지(2) - 개발환경 구축 Spring 개발일지(3) - 스프링 프로젝트 생성 Spring 개발일지(4) - 자바로 스프링 개발 Spring 개발일지(5) - 의존성 주입(DI) 설명하기에 앞서 안녕하세요. 풀스택 개발자를 위해 달려나가는 박종선 입니다. 이번 블로그 내용에서는 Spring DI(Dependecy Injection)을 알아볼 예정입니다."
 }
     </script>
 
@@ -205,109 +205,13 @@ into the {body} of the default.hbs template -->
             <section class="post-full-content">
                 <div class="kg-card-markdown">
                     <!--
-   < 준호가 이용할 태그 정리>
+   < 종선이가 이용할 태그 정리>
    <code class="highlighter-rouge"> </code>                    : 어떠한 문장이나 단어를 하이라이트 할 때 사용합니다.
    <a target="_blank"> </a>                                    : a 태그를 이용하여 문서를 이동하는데 사용합니다.
    <p><strong  class="subtitle_fontAwesome"> </strong></p>     : 주제를 기록할 때 사용합니다.
    >                                                           : 설명할 때 사용합니다.
    >  ** **                                                    : 코드를 적어야 하는 경우 사용합니다.
-   <noscript><pre># Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: &#39;en-uk&#39;
-words_per_minute: 200
-
-# edit baseurl to simply &#39;/&#39; if using as your personal page (instead of a project page)
-baseurl: /
-
-# Website info
-title: 웹 개발자, 김준호의 블로그
-description: The professional publishing platform
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
-CNAME: #add cname for website to be created
-
-# Social info
-navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
-# if &#39;True&#39; the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
-twitter:  # replace by your username
-facebook:  # replace by your username
-
-# Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
-
-# Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
-
-# Permalinks
-permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
-
-# Authors&#39; info in `_data/authors.yml`
-# Tags&#39; info in `_data/tags_info.yml`
-
-# gems and other configs
-plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
-
-feed:
-  path: feed.xml
-
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author&#39;s page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post&#39;s page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
-
-# Settings for building master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV[&#39;GIT_NAME&#39;] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to &quot;source&quot; for USERNAME.github.io
-# or &quot;master&quot; otherwise
-safe: False
-lsi: False
-username: libtv
-repo: libtv.github.io
-branch: master
-relative_source: 
-destination: ../jasper2-pages/
-production_url:  https://libtv.github.io/
-source_url:  https://github.com/libtv/libtv.github.io/
-
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - &quot;*.Rmd&quot;
-  - .git*
-  - backup
-</pre></noscript><script src="https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js"> </script>           : gist 코드입니다.
+   <noscript><pre>404: Not Found</pre></noscript><script src="https://gist.github.com/nusgnojkrap/b04c361f69890ed6927fbfaddabaf612.js"> </script>           : gist 코드입니다.
    ![name](assets/images/spring/spring1_1.png)                 : image를 삽입하는 코드입니다.
  -->
 
@@ -322,7 +226,7 @@ exclude:
 <hr />
 
 <p><strong class="subtitle_fontAwesome">설명하기에 앞서</strong></p>
-<p>안녕하세요. 풀스택 개발자를 위해 달려나가는 <a target="_blank">김준호</a> 입니다.
+<p>안녕하세요. 풀스택 개발자를 위해 달려나가는 <a target="_blank">박종선</a> 입니다.
 <br />이번 블로그 내용에서는 
 <code class="highlighter-rouge">Spring DI(Dependecy Injection)</code>을 알아볼 예정입니다.<br />
 천천히 시간을 가지면서 이해해보도록 합시다. 그러면 시작해보도록 하죠!</p>
@@ -411,103 +315,7 @@ function syntaxHighlight(code) {
 }
 ~~~
 
-<noscript><pre># Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: &#39;en-uk&#39;
-words_per_minute: 200
-
-# edit baseurl to simply &#39;/&#39; if using as your personal page (instead of a project page)
-baseurl: /
-
-# Website info
-title: 웹 개발자, 김준호의 블로그
-description: The professional publishing platform
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
-CNAME: #add cname for website to be created
-
-# Social info
-navigation: True # show the navbar links
-subscribers: True # you need to connect an external service for this to work,
-# if &#39;True&#39; the submit button is disabled for now, but you can change that
-# by editing `_includes/subscribe-form.html`
-twitter:  # replace by your username
-facebook:  # replace by your username
-
-# Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
-
-# Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
-
-# Permalinks
-permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
-
-# Authors&#39; info in `_data/authors.yml`
-# Tags&#39; info in `_data/tags_info.yml`
-
-# gems and other configs
-plugins_dir: [_plugins]
-plugins: [jekyll-paginate, jekyll-feed]
-
-feed:
-  path: feed.xml
-
-# Additional settings available on the front-matter
-# Site logo in the index.html (as in demo.ghost.io)
-# Author&#39;s page cover in _layouts/author.html
-# The same for page.html and tag.html layouts
-# Post&#39;s page cover as a per-post basis _posts/...
-# Disqus comments as a per-post basis
-# ...
-
-# Settings for building master branch with travis-ci
-# with jekyll-travis
-
-# Settings for deploy rake task
-# Username and repo of Github repo, e.g.
-# https://github.com/USERNAME/REPO.git
-# username defaults to ENV[&#39;GIT_NAME&#39;] used by Travis
-# repo defaults to USERNAME.github.io
-# Branch defaults to &quot;source&quot; for USERNAME.github.io
-# or &quot;master&quot; otherwise
-safe: False
-lsi: False
-username: libtv
-repo: libtv.github.io
-branch: master
-relative_source: 
-destination: ../jasper2-pages/
-production_url:  https://libtv.github.io/
-source_url:  https://github.com/libtv/libtv.github.io/
-
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - &quot;*.Rmd&quot;
-  - .git*
-  - backup
-</pre></noscript><script src="https://gist.github.com/libtv/b04c361f69890ed6927fbfaddabaf612.js"> </script> 
+<noscript><pre>404: Not Found</pre></noscript><script src="https://gist.github.com/nusgnojkrap/b04c361f69890ed6927fbfaddabaf612.js"> </script> 
 -->
 
                 </div>
@@ -544,6 +352,21 @@ exclude:
                 <!-- Everything inside the #author tags pulls data from the author -->
                 <!-- #author-->
                 
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/assets/images/jongsun.jpg" alt="nusgnojkrap" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/author/nusgnojkrap">박종선</a></h4>
+                                
+                                    <p>박종선 딥러닝 모드</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/author/nusgnojkrap">Read More</a>
+                        </div>
                     
                 
                 <!-- /author  -->
@@ -676,6 +499,13 @@ exclude:
             </a>
             <footer class="post-card-meta">
                 
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/jongsun.jpg" alt="박종선" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/nusgnojkrap/">박종선</a>
+                        </span>
                     
                 
                 <span class="reading-time">

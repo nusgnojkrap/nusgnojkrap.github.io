@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/author/nusgnojkrap/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2021-05-11T08:12:01+09:00</updated>
+  <updated>2021-05-11T08:19:20+09:00</updated>
   <id>http://localhost:4000/author/nusgnojkrap/feed.xml</id>
 
   
@@ -48,13 +48,13 @@
    ![name](assets/images/spring/spring1_1.png)                 : image를 삽입하는 코드입니다.
  --&gt;
 
-&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Spring 개발일지는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Spring 개발은 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num1&quot;&gt;Spring 개발일지(1) - 기본적인 상식&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num2&quot;&gt;Spring 개발일지(2) - 개발환경 구축&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num3&quot;&gt;Spring 개발일지(3) - 스프링 프로젝트 생성&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num4&quot;&gt;Spring 개발일지(4) - 자바로 스프링 개발&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num5&quot;&gt;Spring 개발일지(5) - 의존성 주입(DI)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num1&quot;&gt;Spring 개발(1) - 기본적인 상식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num2&quot;&gt;Spring 개발(2) - 개발환경 구축&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num3&quot;&gt;Spring 개발(3) - 스프링 프로젝트 생성&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num4&quot;&gt;Spring 개발(4) - 자바로 스프링 개발&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num5&quot;&gt;Spring 개발(5) - 의존성 주입(DI)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
@@ -194,13 +194,13 @@ function syntaxHighlight(code) {
    ![name](assets/images/spring/spring1_1.png)                 : image를 삽입하는 코드입니다.
  --&gt;
 
-&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Spring 개발일지는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Spring 개발은 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num1&quot;&gt;Spring 개발일지(1) - 기본적인 상식&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num2&quot;&gt;Spring 개발일지(2) - 개발환경 구축&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num3&quot;&gt;Spring 개발일지(3) - 스프링 프로젝트 생성&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num4&quot;&gt;Spring 개발일지(4) - 자바로 스프링 개발&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num5&quot;&gt;Spring 개발일지(5) - 의존성 주입(DI)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num1&quot;&gt;Spring 개발(1) - 기본적인 상식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num2&quot;&gt;Spring 개발(2) - 개발환경 구축&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num3&quot;&gt;Spring 개발(3) - 스프링 프로젝트 생성&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num4&quot;&gt;Spring 개발(4) - 자바로 스프링 개발&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num5&quot;&gt;Spring 개발(5) - 의존성 주입(DI)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
@@ -415,13 +415,13 @@ function syntaxHighlight(code) {
    ![name](assets/images/spring/spring1_1.png)                 : image를 삽입하는 코드입니다.
  --&gt;
 
-&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Spring 개발일지는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Spring 개발은 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num1&quot;&gt;Spring 개발일지(1) - 기본적인 상식&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num2&quot;&gt;Spring 개발일지(2) - 개발환경 구축&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num3&quot;&gt;Spring 개발일지(3) - 스프링 프로젝트 생성&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num4&quot;&gt;Spring 개발일지(4) - 자바로 스프링 개발&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num5&quot;&gt;Spring 개발일지(5) - 의존성 주입(DI)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num1&quot;&gt;Spring 개발(1) - 기본적인 상식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num2&quot;&gt;Spring 개발(2) - 개발환경 구축&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num3&quot;&gt;Spring 개발(3) - 스프링 프로젝트 생성&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num4&quot;&gt;Spring 개발(4) - 자바로 스프링 개발&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num5&quot;&gt;Spring 개발(5) - 의존성 주입(DI)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
@@ -583,13 +583,13 @@ function syntaxHighlight(code) {
    ![name](assets/images/spring/spring1_1.png)                 : image를 삽입하는 코드입니다.
  --&gt;
 
-&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Spring 개발일지는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Spring 개발은 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num1&quot;&gt;Spring 개발일지(1) - 기본적인 상식&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num2&quot;&gt;Spring 개발일지(2) - 개발환경 구축&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num3&quot;&gt;Spring 개발일지(3) - 스프링 프로젝트 생성&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num4&quot;&gt;Spring 개발일지(4) - 자바로 스프링 개발&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num5&quot;&gt;Spring 개발일지(5) - 의존성 주입(DI)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num1&quot;&gt;Spring 개발(1) - 기본적인 상식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num2&quot;&gt;Spring 개발(2) - 개발환경 구축&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num3&quot;&gt;Spring 개발(3) - 스프링 프로젝트 생성&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num4&quot;&gt;Spring 개발(4) - 자바로 스프링 개발&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num5&quot;&gt;Spring 개발(5) - 의존성 주입(DI)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
@@ -869,13 +869,13 @@ function syntaxHighlight(code) {
       <published>2021-05-02T01:40:00+09:00</published>
       <updated>2021-05-02T01:40:00+09:00</updated>
       <id>http://localhost:4000/spring-num1</id>
-      <content type="html" xml:base="http://localhost:4000/spring-num1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Spring 개발일지는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="http://localhost:4000/spring-num1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Spring 개발은 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num1&quot;&gt;Spring 개발일지(1) - 기본적인 상식&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num2&quot;&gt;Spring 개발일지(2) - 개발환경 구축&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num3&quot;&gt;Spring 개발일지(3) - 스프링 프로젝트 생성&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num4&quot;&gt;Spring 개발일지(4) - 자바로 스프링 개발&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num5&quot;&gt;Spring 개발일지(5) - 의존성 주입(DI)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num1&quot;&gt;Spring 개발(1) - 기본적인 상식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num2&quot;&gt;Spring 개발(2) - 개발환경 구축&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num3&quot;&gt;Spring 개발(3) - 스프링 프로젝트 생성&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num4&quot;&gt;Spring 개발(4) - 자바로 스프링 개발&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num5&quot;&gt;Spring 개발(5) - 의존성 주입(DI)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -955,7 +955,7 @@ function syntaxHighlight(code) {
       
 
       
-        <summary type="html">Spring 개발일지는 여러 절로 구성되어 있습니다. Spring 개발일지(1) - 기본적인 상식 Spring 개발일지(2) - 개발환경 구축 Spring 개발일지(3) - 스프링 프로젝트 생성 Spring 개발일지(4) - 자바로 스프링 개발 Spring 개발일지(5) - 의존성 주입(DI) 스프링 프레임워크 스프링 프레임워크 (“영어”): Spring Framework)는 자바 플랫폼을 위한 오픈 소스 애플리케이션 프레임워크로서 간단히 스프링(Spring)이라고도 한다. 동적인 웹 사이트를 개발하기 위한 여러 가지 서비스를 제공하고 있다. 대한민국 공공기관의 웹 서비스 개발 시 사용을 권장하고 있는 전자정부 표준프레임워크의 기반 기술로서 쓰이고 있다.</summary>
+        <summary type="html">Spring 개발은 여러 절로 구성되어 있습니다. Spring 개발(1) - 기본적인 상식 Spring 개발(2) - 개발환경 구축 Spring 개발(3) - 스프링 프로젝트 생성 Spring 개발(4) - 자바로 스프링 개발 Spring 개발(5) - 의존성 주입(DI) 스프링 프레임워크 스프링 프레임워크 (“영어”): Spring Framework)는 자바 플랫폼을 위한 오픈 소스 애플리케이션 프레임워크로서 간단히 스프링(Spring)이라고도 한다. 동적인 웹 사이트를 개발하기 위한 여러 가지 서비스를 제공하고 있다. 대한민국 공공기관의 웹 서비스 개발 시 사용을 권장하고 있는 전자정부 표준프레임워크의 기반 기술로서 쓰이고 있다.</summary>
       
 
       

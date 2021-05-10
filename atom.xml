@@ -143,13 +143,13 @@
       <item>
         <title>Spring 개발일지(1) - 기본적인 상식</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Spring 개발일지는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Spring 개발은 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num1&quot;&gt;Spring 개발일지(1) - 기본적인 상식&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num2&quot;&gt;Spring 개발일지(2) - 개발환경 구축&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num3&quot;&gt;Spring 개발일지(3) - 스프링 프로젝트 생성&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num4&quot;&gt;Spring 개발일지(4) - 자바로 스프링 개발&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./spring-num5&quot;&gt;Spring 개발일지(5) - 의존성 주입(DI)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num1&quot;&gt;Spring 개발(1) - 기본적인 상식&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num2&quot;&gt;Spring 개발(2) - 개발환경 구축&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num3&quot;&gt;Spring 개발(3) - 스프링 프로젝트 생성&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num4&quot;&gt;Spring 개발(4) - 자바로 스프링 개발&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./spring-num5&quot;&gt;Spring 개발(5) - 의존성 주입(DI)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
